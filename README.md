@@ -59,7 +59,9 @@ static/
    ```sh
    hugo server
    ```
-   Open your browser at [http://localhost:1313](http://localhost:1313) to view the site.
+   Open your browser at [http://localhost:1313/template-me/](http://localhost:1313/template-me/) to view the site locally.
+   
+   > **Note:** If you set `baseURL` to `/` in `config.toml`, the site will be available at [http://localhost:1313/](http://localhost:1313/). If you use a subdirectory (e.g., `baseURL = "http://NeK000.github.io/template-me/"`), Hugo will serve the site at [http://localhost:1313/template-me/](http://localhost:1313/template-me/).
 
 ## Customization
 
