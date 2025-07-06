@@ -1,5 +1,7 @@
 # Me Page (Hugo Static Site)
 
+[![Visit Live Demo](https://img.shields.io/badge/Visit%20Live%20Demo-brightgreen?style=for-the-badge)](http://NeK000.github.io/template-me/)
+
 **This is a template repository!**
 
 To use it, click the "Use this template" button on GitHub to create your own repository. Do not clone this repository directly—instead, create a new repo from this template, then clone your new repository.
