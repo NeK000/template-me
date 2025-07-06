@@ -1,0 +1,13 @@
+# config.yaml - Configuration for the HTML site
+site:
+  title: "Test User"
+  description: "I am the example of the test user."
+  main_image: "images/logo.png"
+  links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/"
+      icon: "fa fa-linkedin"
+    - name: "GitHub"
+      url: "https://github.com/"
+      icon: "fa fa-github"
+      

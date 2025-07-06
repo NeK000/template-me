@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>{{ .Site.Data.config.site.title }}</title>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ .Site.Data.config.site.main_image | relURL }}" alt="Description of image" class="main-image">
+        <h1>{{ .Site.Data.config.site.title }}</h1>
+        <p>{{ .Site.Data.config.site.description }}</p>
+        <div class="button-container">
+            {{ range .Site.Data.config.site.links }}
+            <a href="{{ .url }}" class="button" target="_blank" rel="noopener noreferrer">
+                <i class= {{ .icon }} ></i>
+                {{ .name }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+title = "Me App"
+baseURL = "http://NeK000.github.io/template-me/"
+languageCode = "en-us"
+
+[params]
+  description = "The me app"
+  author = "Test User"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+      table = true
+      strikethrough = true
