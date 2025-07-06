@@ -4,3 +4,4 @@ node_modules/
 jspm_packages/
 public
 .hugo_build.lock
+package-lock.json
