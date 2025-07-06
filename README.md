@@ -9,19 +9,34 @@ This is a simple, responsive single-page site built with [Hugo](https://gohugo.i
 ## Project Structure
 
 ```
-me/
-├── config.toml
-├── data/
-│   └── config.yaml
-├── layouts/
-│   └── index.html
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── images/
-│       ├── background.jpg
-│       └── ninik.webp
-└── README.md
+config.toml
+LINTING.md
+package.json
+README.md
+stylelint.config.js
+data/
+  config.yaml
+layouts/
+  index.html
+public/
+  index.html
+  index.xml
+  sitemap.xml
+  categories/
+    index.xml
+  css/
+    style.css
+  images/
+    background.jpg
+    logo.png
+  tags/
+    index.xml
+static/
+  css/
+    style.css
+  images/
+    background.jpg
+    logo.png
 ```
 
 ## Setup Instructions
