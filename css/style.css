@@ -66,11 +66,11 @@ body::before {
     height: auto;
     border-radius: 100px;
     object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
 }
 
 .container {
-    background: rgba( 0,0,0,0.6);
+    background: rgb(0 0 0 / 60%);
     border-radius: 16px;
     width: 100%;
     max-width: 400px;
@@ -79,19 +79,22 @@ body::before {
     box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
     body {
         padding: 0 2vw;
     }
+
     .container {
         max-width: 98vw;
         margin-top: 10px;
         padding: 12px 4px;
     }
+
     .main-image {
         width: 60vw;
         max-width: 120px;
     }
+
     .button {
         max-width: 98vw;
         min-width: 80px;
