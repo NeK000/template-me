@@ -12,7 +12,7 @@ body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    color: #fff;
+    color: var(--main-text-color, #fff);
     position: relative;
     overflow: hidden;
 }   
@@ -27,10 +27,6 @@ body::before {
     background: inherit;
     filter: blur(6px);
     z-index: -1;
-}
-
-h1 {
-    color: #fff;
 }
 
 .image-container {
@@ -49,18 +45,18 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #26A269;
-    color: #fff;
+    background: var(--main-button-background-color-main, #26A269); 
+    color: var(--main-button-text-color, #fff);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    width: 100%; /* Ensures all buttons have the same width */
-    text-align: center; /* Centers the text inside the button */
-    max-width: 300px; /* Optional: Limits the button width for better design */
+    width: 100%; 
+    text-align: center;
+    max-width: 300px;
 }
-
+    
 .button:hover {
-    background: #186643;
+    background: var(--main-button-background-color-hover, #186643);
 }
 
 .main-image {
@@ -74,7 +70,7 @@ h1 {
 }
 
 .container {
-    background: rgba(0,0,0,0.6);
+    background: rgba( 0,0,0,0.6);
     border-radius: 16px;
     width: 100%;
     max-width: 400px;
