@@ -6,6 +6,10 @@ To use it, click the "Use this template" button on GitHub to create your own rep
 
 This is a simple, responsive single-page site built with [Hugo](https://gohugo.io/). It features a profile image, title, description, and a set of customizable buttons/links. The site is styled with custom CSS and is ready for deployment on GitHub Pages.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Project Structure
 
 ```
