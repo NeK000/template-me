@@ -7,6 +7,14 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <title>{{ .Site.Data.config.site.title }}</title>
+    <style>
+    :root {
+      --main-text-color: {{ .Site.Data.config.design.text.color }};
+      --main-button-text-color: {{ .Site.Data.config.design.button.text.color }};
+      --main-button-background-color-main: {{ .Site.Data.config.design.button.background.color.main }};
+      --main-button-background-color-hover: {{ .Site.Data.config.design.button.background.color.hover }};
+    }
+    </style>
 </head>
 <body>
     <div class="container">

@@ -11,3 +11,13 @@ site:
       url: "https://github.com/"
       icon: "fa fa-github"
       
+design:
+  text:
+    color: "#ffffff"
+  button:
+    text:
+      color: "#ffffff"
+    background:
+      color: 
+        main: "#26a269"
+        hover: "#186643"
